@@ -1,0 +1,79 @@
+
+:root {
+    --cor-principal: #d98da5;
+    --cor-fundo: #fff5f7;
+    --cor-texto: #49343d;
+    --cor-destaque: #f4dce5;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e8b5c5;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Conteúdo */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #f0d5df;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(180, 110, 140, 0.10);
+}
+
+h2 {
+    color: #b76583;
+}
+
+/* Hobbies */
+.hobbies {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    background-color: var(--cor-destaque);
+    color: #79485b;
+    padding: 15px 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.hobbies li:hover {
+    background-color: var(--cor-principal);
+    color: white;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+/* Rodapé */
+footer {
+    background-color: #b76583;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}

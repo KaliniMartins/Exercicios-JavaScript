@@ -1,0 +1,46 @@
+
+body {
+  background-color: #f0f6fc;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  padding: 30px;
+}
+
+h2 {
+  color: #37658a;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #b5cde0;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #548db8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #37658a;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.aprovado {
+  color: green;
+}
+
+.reprovado {
+  color: red;
+}
+

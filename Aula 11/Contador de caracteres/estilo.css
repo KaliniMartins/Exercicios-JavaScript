@@ -1,0 +1,17 @@
+body {
+  background-color: #f0f6fc;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+textarea {
+  width: 300px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #b5cde0;
+  border-radius: 5px;
+}
+
+.erro {
+  color: red;
+}

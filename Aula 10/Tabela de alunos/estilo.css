@@ -1,0 +1,14 @@
+
+.aprovado {
+  color: green;
+  background-color: #d4edda;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.reprovado {
+  color: red;
+  background-color: #f8d7da;
+  padding: 10px;
+  margin-bottom: 5px;
+}

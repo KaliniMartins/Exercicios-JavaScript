@@ -1,0 +1,14 @@
+.ok {
+  background-color: #c8e6c9;
+  color: #256029;
+}
+
+.atencao {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.erro {
+  background-color: #f8d7da;
+  color: #842029;
+}

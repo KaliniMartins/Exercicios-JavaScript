@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f1ea;
+  text-align: center;
+  padding: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+#numero {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 30px;
+  color: #333;
+}
+
+.negativo {
+  color: red !important;
+}
+
+button {
+  background-color: #e8b500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
